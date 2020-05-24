@@ -19,10 +19,10 @@ Run Celery
 celery worker -l info -A __config__
 ```
 
-One Example for requesting URL
-
-- http://127.0.0.1:8000/scheduler/?url=https://www.google.com&dt=2020-05-24T19:00:00
-
+Example for requesting URL in your browser
+```
+http://127.0.0.1:8000/scheduler/?url=https://www.google.com&dt=2020-05-24T19:00:00
+```
 
 
 Testing
